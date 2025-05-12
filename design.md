@@ -5,7 +5,7 @@
 | Column Name            | Description                                                |
 | ---------------------- | ---------------------------------------------------------- |
 | `campaignNumber`       | Identifier for the campaign (e.g., "Campaign2025Q1")       |
-| `type`                 | Type of data (e.g., "user", "beneficiary", etc.)           |
+| `type`                 | Type of data (e.g., "user", "facility", etc.)           |
 | `uniqueIdentifier`     | A unique value used to identify rows (e.g., Aadhaar, ID)   |
 | `data` (JSONB)         | Full row data from the sheet in JSON format                |
 | `uniqueIdAfterProcess` | Unique ID from DB after processing (null if not yet saved) |
