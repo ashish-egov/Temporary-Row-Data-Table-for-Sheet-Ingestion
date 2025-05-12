@@ -1,6 +1,6 @@
 ### ✅ **Temporary Row Data Table for Sheet Ingestion**
 
-#### 📌 Table Name: `sheet_temp_data`
+#### 📌 Table Name: `eg_cm_campaign_data`
 
 | Column Name            | Description                                                |
 | ---------------------- | ---------------------------------------------------------- |
@@ -16,7 +16,7 @@
 ### 🔄 **Flow: Sheet Upload to DB Processing**
 
 1. User uploads a sheet containing user data.
-2. Each row is temporarily saved in the `sheet_temp_data` table.
+2. Each row is temporarily saved in the `eg_cm_campaign_data` table.
 3. For each row:
 
    * Extract `uniqueIdentifier`.
